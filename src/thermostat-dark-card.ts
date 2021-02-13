@@ -194,13 +194,13 @@ export class ThermostatDarkCard extends ThermostatUserInterface {
       .dial {
         user-select: none;
         --thermostat-off-fill: #555;
-        --thermostat-idle-fill: #222;
-        --thermostat-path-color: rgba(255, 255, 255, 0.3);
+        --thermostat-idle-fill: var(--theme-thermostat-idle-fill-color);
+        --thermostat-path-color: var(--theme-thermostat-path-color);
         --thermostat-heating-fill: #e36304;
         --thermostat-cooling-fill: #007af1;
-        --thermostat-path-active-color: rgba(255, 255, 255, 0.8);
-        --thermostat-path-active-color-large: rgba(255, 255, 255, 1);
-        --thermostat-text-color: white;
+        --thermostat-path-active-color: var(--theme-thermostat-path-active-color);
+        --thermostat-path-active-color-large: var(--theme-thermostat-path-active-color-large);
+        --thermostat-text-color: var(--theme-thermostat-text-color);
       }
       .dial.has-thermo .dial__ico__leaf {
         visibility: hidden;
@@ -231,13 +231,13 @@ export class ThermostatDarkCard extends ThermostatUserInterface {
         pointer-events: initial;
       }
       .dial__editableIndicator {
-        fill: white;
+        fill: var(--theme-thermostat-editable-indicator-color);
         fill-rule: evenodd;
         opacity: 0;
         transition: opacity 0.5s;
       }
       .dial__temperatureControl {
-        fill: white;
+        fill: var(--theme-thermostat-temperature-control-color);
         opacity: 0;
         transition: opacity 0.2s;
       }
@@ -272,7 +272,7 @@ export class ThermostatDarkCard extends ThermostatUserInterface {
       .dial text tspan {
         fill: var(--thermostat-text-color);
         text-anchor: middle;
-        font-family: Helvetica, sans-serif;
+        font-family: Ubuntu Mono, sans-serif;
         alignment-baseline: central;
         dominant-baseline: central;
       }
@@ -313,7 +313,7 @@ export class ThermostatDarkCard extends ThermostatUserInterface {
       }
       .dial .dial__chevron {
         visibility: hidden;
-        fill: none;
+        fill: var(--theme-thermostat-chevron-color);
         stroke: var(--thermostat-text-color);
         stroke-width: 4px;
         opacity: 0.3;

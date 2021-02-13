@@ -1,13 +1,13 @@
-# Dark Thermostat by [@ciotlosm](https://www.github.com/ciotlosm)
+# Dark Thermostat by [@backslashv](https://www.github.com/backslashv)
 
 A simple thermostat implemented in CSS based on [Nest Thermostat Control](https://codepen.io/dalhundal/pen/KpabZB/) by Dal Hundal
 [@dalhundal](https://codepen.io/dalhundal) on [CodePen](https://codepen.io)
 
-![alt text](https://github.com/ciotlosm/lovelace-thermostat-dark-card/blob/master/sample.png)
+![alt text](https://github.com/backslashv/lovelace-thermostat-dark-card/blob/master/sample.png)
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE.md)
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
@@ -146,14 +146,14 @@ Hey dude! Help me out for a couple of :beers: or a :coffee:!
       attribute: away
 ```
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/ciotlosm/lovelace-thermostat-dark-card.svg?style=for-the-badge
-[commits]: https://github.com/ciotlosm/lovelace-thermostat-dark-card/commits/master
+[commits-shield]: https://img.shields.io/github/commit-activity/y/backslashv/lovelace-thermostat-dark-card.svg?style=for-the-badge
+[commits]: https://github.com/backslashv/lovelace-thermostat-dark-card/commits/master
 [devcontainer]: https://code.visualstudio.com/docs/remote/containers
 [discord]: https://discord.gg/5e9yvq
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg?style=for-the-badge
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/c/projects/frontend
-[license-shield]: https://img.shields.io/github/license/ciotlosm/lovelace-thermostat-dark-card.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/backslashv/lovelace-thermostat-dark-card.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg?style=for-the-badge
-[releases-shield]: https://img.shields.io/github/release/ciotlosm/lovelace-thermostat-dark-card.svg?style=for-the-badge
-[releases]: https://github.com/ciotlosm/lovelace-thermostat-dark-card/releases
+[releases-shield]: https://img.shields.io/github/release/backslashv/lovelace-thermostat-dark-card.svg?style=for-the-badge
+[releases]: https://github.com/backslashv/lovelace-thermostat-dark-card/releases
